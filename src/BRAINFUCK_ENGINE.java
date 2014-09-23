@@ -75,9 +75,9 @@ public class BRAINFUCK_ENGINE {
 	public  void performOperation(char ch)
 	{
 		if(ch=='<')
-		this.index++;
-		else if(ch=='>')
 		this.index--;
+		else if(ch=='>')
+		this.index++;
 		else if(ch=='+')
 		arr[index]++;
 		else if(ch=='-')
